@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 30px;
+        }   
+    </style>
+</head>
+<body>
+    <div>
+        <input id="mny" placeholder="Kreditin meblegi"  type="text">
+    </div>
+    <div>
+        <select name="ay" id="ay">
+            <option value="0">Nece ayliq</option>
+            <option value="1">6 ay</option>
+            <option value="2">12 ay</option>
+            <option value="3">18 ay</option>
+            <option value="4">24 ay</option>
+            <option value="5">36 ay</option>
+        </select>
+    </div>
+    <div>
+        <input placeholder="nece faiz" id="prc" type="text">
+    </div>
+    <button id="btn">Hesabla</button>
+    <p id="result"></p>
+    <script src="js/main.js"></script>
+</body>
+</html>
